@@ -35,3 +35,7 @@ version is the same as the `cdk` here.
 3. It's ideal to use `aws-vault` on this project and if you do use it, ensure that a virtual MFA device 
 is assigned to the IAM user, otherwise you'll get exceptions during IAM role creation when deploying the project.
 
+## Next steps
+
+- [ ] [Testing constructs](https://cdkworkshop.com/20-typescript/70-advanced-topics/100-construct-testing.html)
+- [ ] [CDK pipelines](https://cdkworkshop.com/20-typescript/70-advanced-topics/200-pipelines.html)
