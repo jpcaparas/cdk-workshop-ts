@@ -8,7 +8,6 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 ## Tutorial  
 See [this useful workshop](https://cdkworkshop.com/20-typescript.html) on working with the AWS CDK for Typescript projects.
 
-
 ## Useful commands
 
  * `npm run build`   compile typescript to js
@@ -17,3 +16,11 @@ See [this useful workshop](https://cdkworkshop.com/20-typescript.html) on workin
  * `cdk deploy`      deploy this stack to your default AWS account/region
  * `cdk diff`        compare deployed stack with current state
  * `cdk synth`       emits the synthesized CloudFormation template
+ 
+## Local dependencies
+This project was developed locally on my machine with the following:
+
+- `cdk` @ `1.129.0 (build fb43f89)`
+- `nodejs` @ `v14.19.0`
+- (Optional) `cdklocal` @ `1.129.0 (build fb43f89)`
+- (Optional) `aws-vault` @ `v6.5.0`
