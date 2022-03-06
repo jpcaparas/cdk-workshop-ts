@@ -24,3 +24,14 @@ This project was developed locally on my machine with the following:
 - `nodejs` @ `v14.19.0`
 - (Optional) `cdklocal` @ `1.129.0 (build fb43f89)`
 - (Optional) `aws-vault` @ `v6.5.0`
+
+## Gotchas
+There are some gotchas that you may encounter along the way:
+
+1. I intentionally was running an older version of `cdk` on this project, because 
+I don't want to be switching versions all the time.
+2. If you are running `cdklocal` wrapper for [localstack](https://github.com/localstack/localstack), ensure that its 
+version is the same as the `cdk` here.
+3. It's ideal to use `aws-vault` on this project and if you do use it, ensure that a virtual MFA device 
+is assigned to the IAM user, otherwise you'll get exceptions during IAM role creation when deploying the project.
+
